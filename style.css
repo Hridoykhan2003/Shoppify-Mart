@@ -74,15 +74,11 @@ nav a {
     text-decoration: none;
     color: rgb(21, 117, 117);
     margin: 10px 10px;
+    font-weight: bold;
+    font-size: larger;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-}
-
-.back {
-    background-color: darkseagreen;
-    border-radius: 6px;
-    padding: 5px;
 }
