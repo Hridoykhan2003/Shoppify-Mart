@@ -3,11 +3,12 @@
 }
 
 h1 {
-    background-color: rgba(248, 95, 95, 0.699);
+    background-image: url(image/shop2.jpg);
+    height: 100px;
     font-size: 7vw;
     text-align: center;
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 h2 {
