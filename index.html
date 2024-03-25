@@ -78,11 +78,39 @@
                 grid-template-columns: repeat(3, 1fr);
             }
         }
+
+        nav a {
+            text-decoration: none;
+            color: rgb(21, 117, 117);
+            margin: 10px 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .back {
+            background-color: darkseagreen;
+            border-radius: 6px;
+            padding: 5px;
+        }
     </style>
 </head>
 
 <body>
     <header>
+        <nav>
+            <span>
+                <a class="back" href="">Home</a>
+                <a class="back" href="">Blog</a>
+                <a class="back" href="">About Us</a>
+            </span>
+            <span>
+                <a href=""><i class="fa-solid fa-right-to-bracket"></i></a>
+                <a href=""><i class="fa-solid fa-user"></i></a>
+            </span>
+        </nav>
         <h1>Welcome To Shoppify Mart</h1>
     </header>
     <section>
