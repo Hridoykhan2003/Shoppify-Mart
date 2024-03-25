@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dealer</title>
+    <script src="https://kit.fontawesome.com/232ddf3f23.js" crossorigin="anonymous"></script>
+    <style>
+        h1 {
+            background-color: rgba(228, 80, 80, 0.699);
+            font-size: 7vw;
+            text-align: center;
+            padding: 20px;
+            border-radius: 30px;
+        }
+
+        h2 {
+            text-align: center;
+            background-color: darkseagreen;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .parts button {
+            background-color: sandybrown;
+            font-weight: bold;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .fa-star,
+        .fa-star-half-stroke {
+            color: goldenrod;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .parts {
+            border: 5px solid gray;
+            border-radius: 15px;
+            padding: 15px;
+        }
+
+        .parts img {
+            width: 100%;
+        }
+
+        #big {
+            font-size: xx-large;
+        }
+
+        @media screen and (max-width:576px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        @media screen and (min-width:577px) and (max-width:700px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media screen and (min-width:701px) and (max-width:900px) {
+            .container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome To Shoppify Mart</h1>
+    </header>
+    <section>
+        <h2 id="big">TAKE YOUR NEEDS WITHOUT WORRIES</h2>
+        <div class="container">
+            <div class="parts">
+                <img src="image/Image1.jpg" alt="">
+                <h2>Deal-1</h2>
+                <h4>Price: 100</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit praesentium libero quaerat.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image2.jpg" alt="">
+                <h2>Deal-2</h2>
+                <h4>Price: 200</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>Dolores, veritatis consectetur nam nemo quod expedita cupiditate</p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image3.webp" alt="">
+                <h2>Deal-3</h2>
+                <h4>Price: 300</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>Accusantium error beatae voluptatem itaque culpa corrupti porro autem unde,</p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image4.jpg" alt="">
+                <h2>Deal-4</h2>
+                <h4>Price: 400</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </p>
+                <p>Mollitia id quis nulla eaque deleniti incidunt, nesciunt et, amet velit voluptatem accusamus</p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image5.jpg" alt="">
+                <h2>Deal-5</h2>
+                <h4>Price: 500</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </p>
+                <p>Consectetur, sit explicabo! Optio, animi explicabo suscipit harum ut corrupti rem fuga obcaecati.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image6.jpg" alt="">
+                <h2>Deal-6</h2>
+                <h4>Price: 600</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </p>
+                <p>Autem dolor totam non labore dolore voluptatum id veniam culpa iure harum optio officia aperiam quia
+                </p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image7.webp" alt="">
+                <h2>Deal-7</h2>
+                <h4>Price: 700</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>Fugit soluta distinctio quasi natus harum laboriosam id provident fugiat quaerat recusandae.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image8.webp" alt="">
+                <h2>Deal-8</h2>
+                <h4>Price: 800</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </p>
+                <p>Quas amet accusantium ratione iste veniam maiores id quos tenetur iure temporibus eligendi sapiente
+                    quod, </p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image9.jpg" alt="">
+                <h2>Deal-9</h2>
+                <h4>Price: 900</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>Possimus rem consequatur tempore eum facere eveniet optio voluptatem odit dolor cupiditate laborum
+                    cum similique,</p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image10.jpg" alt="">
+                <h2>Deal-10</h2>
+                <h4>Price: 1000</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </p>
+                <p>Ea accusantium excepturi illo perspiciatis quibusdam tempora nemo possimus neque pariatur mollitia
+                </p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image11.jpg" alt="">
+                <h2>Deal-11</h2>
+                <h4>Price: 1100</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>Ex repudiandae dicta recusandae iusto veniam. Totam corporis eaque laboriosam, </p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image12.webp" alt="">
+                <h2>Deal-12</h2>
+                <h4>Price: 1200</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </p>
+                <p>Harum veniam, voluptatum voluptates eaque aut hic quos dolorem praesentium nesciunt repellendus
+                </p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image13.jpg" alt="">
+                <h2>Deal-13</h2>
+                <h4>Price: 1300</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </p>
+                <p>Dolores quos, iure officia alias, reiciendis numquam eligendi iste voluptatibus architecto
+                </p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image14.jpg" alt="">
+                <h2>Deal-14</h2>
+                <h4>Price: 1400</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>Quas ullam suscipit aliquam debitis consequatur eum molestiae ut ipsum, fuga cumque sunt iure
+                </p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image15.webp" alt="">
+                <h2>Deal-15</h2>
+                <h4>Price: 1500</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>Repellat a beatae odio pariatur magnam fugit ut aliquid minus enim quibusdam aspernatur iste
+                </p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image16.jpg" alt="">
+                <h2>Deal-16</h2>
+                <h4>Price: 1600</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </p>
+                <p>Labore ea obcaecati corrupti nisi sequi vel illo, sunt hic omnis assumenda repellat minima quam
+                </p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image17.jpg" alt="">
+                <h2>Deal-17</h2>
+                <h4>Price: 1700</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </p>
+                <p>Illum nesciunt, aspernatur, dignissimos dolorem ipsum nulla iure, fugiat rerum porro quae velit
+                </p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image18.jpg" alt="">
+                <h2>Deal-18</h2>
+                <h4>Price: 1800</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </p>
+                <p>Nesciunt aut voluptatem saepe fugit inventore dolorem dolores minus reiciendis aspernatur?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image19.jpg" alt="">
+                <h2>Deal-19</h2>
+                <h4>Price: 1900</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>Libero tempore odit quas dolore cumque porro, possimus autem sed fugit sequi amet quaerat minima,
+                </p>
+                <button>Order Now</button>
+            </div>
+            <div class="parts">
+                <img src="image/image20.jpg" alt="">
+                <h2>Deal-20</h2>
+                <h4>Price: 2000</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </p>
+                <p>Eaque repudiandae suscipit ratione optio sint rerum voluptas esse voluptates incidunt consectetur,
+                </p>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
